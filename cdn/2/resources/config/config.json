@@ -490,7 +490,8 @@
      "canZoom": true,
      "canHome": true,
      "canSearch": true,
-     "canNavigation": false
+     "canNavigation": false,
+     "canLocate": true
     },
     "isUseCustomMapState": false
    },
