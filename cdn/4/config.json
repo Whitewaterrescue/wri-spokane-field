@@ -691,7 +691,7 @@
             ]
           }
         ],
-        "sortOpen": true,
+        "sortOpen": false,
         "linkParam": {
           "linkType": "VIEW",
           "value": "page_1,view_2"
@@ -787,7 +787,8 @@
             }
           }
         }
-      }
+      },
+      "enableDataAction": false
     },
     "widget_3": {
       "id": "widget_3",
@@ -795,7 +796,7 @@
       "version": "1.20.0",
       "label": "Card Text",
       "config": {
-        "text": "<p><span style=\"font-size:14px;font-weight:bold;\"><exp data-uniqueid=\"d95c67b51660\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22ShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{ShortName}</exp></span><span style=\"font-size:14px;\"> &mdash; <exp data-uniqueid=\"9006a5dac5ec\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BGeographicName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BGeographicName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22GeographicName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{GeographicName}</exp></span></p><p><span style=\"font-size:11px;color: var(--sys-color-surface-paper-hint);\"><exp data-uniqueid=\"6d221931b904\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BWatercourseDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWatercourseDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22WatercourseDescription%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{WatercourseDescription}</exp> &bull; <exp data-uniqueid=\"9df6b3e692ed\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BSectorShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSectorShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22SectorShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{SectorShortName}</exp></span></p>",
+        "text": "<p><span style=\"font-size:14px;font-weight:bold;\"><exp data-uniqueid=\"17b6877fa695\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22ShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{ShortName}</exp></span><span style=\"font-size:14px;\"> &mdash; <exp data-uniqueid=\"d2c842d13082\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BGeographicName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BGeographicName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22GeographicName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{GeographicName}</exp></span></p><p><span style=\"font-size:11px;color: var(--sys-color-surface-paper-hint);\"><exp data-uniqueid=\"898ae6dcbf84\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BWatercourseDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWatercourseDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22WatercourseDescription%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{WatercourseDescription}</exp> &bull; <exp data-uniqueid=\"b906d9c08967\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BSectorShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSectorShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22SectorShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{SectorShortName}</exp></span></p>",
         "placeholder": "",
         "style": {
           "verticalAlign": "center",
@@ -830,7 +831,7 @@
         "logicalOperator": "OR",
         "custom": false,
         "resetAll": false,
-        "turnOffAll": true,
+        "turnOffAll": false,
         "arrangeType": "INLINE",
         "triggerType": "BUTTON",
         "omitInternalStyle": true,
