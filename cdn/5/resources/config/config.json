@@ -53,7 +53,7 @@
     "MEDIUM": "layout_p1",
     "SMALL": "layout_p1"
    },
-   "isDefault": true,
+   "isDefault": false,
    "isVisible": true,
    "bodyBackgroundColor": ""
   },
@@ -67,7 +67,7 @@
     "MEDIUM": "layout_p2",
     "SMALL": "layout_p2"
    },
-   "isDefault": false,
+   "isDefault": true,
    "isVisible": true,
    "bodyBackgroundColor": ""
   }
